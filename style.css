@@ -1,7 +1,8 @@
-﻿*
+﻿*, body
 {
 	font-family: Helvetica; 
-	text-align:center;"
+	text-align:center;
+	margin:0;
 }
 
 
@@ -18,10 +19,34 @@ section{
 	align-items:center;
 }
 
+.hero{
+	background-image:url(./images/background12a.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
 .title{
-	border:1px solid #000; 
+	border:0px solid #000; 
 	padding:25px; 
 	margin:25px; 
 	font-size:50px;
+	font-weight:100;
 	}
 
+.email{
+	border:1px solid #c2c5cc;
+	background-color:#efefef;
+	padding:10px 35px;
+	font-size:16px;
+}
+
+.button{
+	padding:10px 25px;
+	border:1px solid #c2c5cc
+	font-size:16px;
+	background-color:c2c5cc
+}
+
+.mc-field-group{
+	padding:20px
+}
