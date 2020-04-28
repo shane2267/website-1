@@ -1,0 +1,51 @@
+﻿.flex{
+	display:flex;	flex-wrap:wrap;}
+
+/*flexbox properties start*/
+
+.center{justify-content: space-around;	align-items:center;}
+
+.left{justify-content: flex-start;}
+
+.right{justify-content: flex-end;}
+
+.bottom{align-items:flex-end;}
+
+.top{align-items:flex-start;}
+
+/*flex box properties end*/
+
+.hidden-desktop{   /*items that are available on desktop not mobile and vice versa*/
+	display:none;
+}
+
+/*grid system desktop*/
+	.flex-12{width:100%}
+	.flex-11{width:91.666%}
+	.flex-10{width:83.3333%}
+	.flex-9{width:74.9999%}
+	.flex-8{width:66.6666%}
+	.flex-7{width:58.3333%}
+	.flex-6{width:50%}
+	.flex-5{width:41.6666%}
+	.flex-4{width:33.3333%}
+	.flex-3{width:25%}
+	.flex-2{width:16.6666%}
+	.flex-1{width:8.3333%}
+
+/*grid systems phones*/
+@media only screen and (max-width:480px){
+	.flex-mobile-12{width:100%}
+	.flex-mobile-11{width:91.666%}
+	.flex-mobile-10{width:83.3333%}
+	.flex-mobile-9{width:74.9999%}
+	.flex-mobile-8{width:66.6666%}
+	.flex-mobile-7{width:58.3333%}
+	.flex-mobile-6{width:50%}
+	.flex-mobile-5{width:41.6666%}
+	.flex-mobile-4{width:33.3333%}
+	.flex-mobile-3{width:25%}
+	.flex-mobile-2{width:16.6666%}
+	.flex-mobile-1{width:8.3333%}
+	.hidden-mobile{display:none !important;}
+}
